@@ -29,7 +29,9 @@ void loop() {
   digitalWrite(greenPin,255);
   digitalWrite(bluePin,0);
  }
- else 
+ else //could've extended the else if to 
+      //display more colours but this 
+      //keeps it simple while display all colors 
  {
   digitalWrite(redPin, 0);
   digitalWrite(greenPin,0);
